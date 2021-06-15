@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+}
+
+
+.github__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 40px 10px 30px;
+  background: lightgrey;
+  position: sticky;
+  top: 0;
+}
+
+
+.github__image {
+  margin-right: 16px;
+  width: 40px;
+  height: 40px;
+}
+
+.github__leftNavbarSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form > input {
+  padding: 6px 2px;
+  margin-right: -30px;
+  border: none;
+  width: 245px;
+  border-radius: 2px;
+  outline: 0;
+  font-size: 11px;
+}
+
+div > ul {
+  display: flex;
+}
+
+div > ul > li {
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+  padding: 0 10px;
+  font-size: 14px;
+  font-weight: 200;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.github__rightNavbarSection {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* margin: 10px; */
+}
+
+.bell {
+  margin-right: 10px;
+}
+
+.navbar__forms {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px 0 20px;
+  cursor: pointer;
+}
+
+#new-speck, #profiles {
+  position: absolute;
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: 0 0 5px 5px;
+  border-top: none;
+  font-family: sans-serif;
+  width: 350px;
+  padding: 5px;
+
+}
+.navbar__forms .navbar__inputDropdowns {
+  width: 10px;
+  border: none;
+  background: transparent;
+  outline-width: 0;
+}
+
+.navbar__forms .navbar__inputDropdowns::-webkit-calendar-picker-indicator {
+  opacity: 100;
+}
+
+.navbar__forms .dropdown__image {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+}
+

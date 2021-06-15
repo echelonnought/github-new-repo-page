@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Github New Repo Page</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-    
+    <nav class="github__navbar">
+        <div class="github__leftNavbarSection">
+            <a href="#"> <img src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                    alt="GitHub image" class="github__image"> </i></a>
+            <form action="" class="search__form">
+                <input type="text" id="github-input" placeholder="Search or jump to..." value="" name="github">
+            </form>
+            <ul>
+                <li> <a href="#">Pull requests</a></li>
+                <li> <a href="#">Issues</a></li>
+                <li> <a href="#">Marketplace </a></li>
+                <li> <a href="#">Explore </a></li>
+            </ul>
+        </div>
+        <div class="github__rightNavbarSection">
+            <i class="fas fa-bell bell"></i>
+            <form action="" method="get" class="navbar__forms">
+                <i class="fas fa-plus plus__dropdown"></i>
+                <input list="new-specks" name="new_speck" class="navbar__inputDropdowns">
+                <datalist id="new-specks">
+                    <option value="New repository">
+                    <option value="Import repository">
+                    <option value="New gist">
+                    <option value="New organization">
+                    <option value="New project">
+                </datalist>
+            </form>
+            <form action="" method="get" class="navbar__forms">
+                <img src="/image/lawson.jpg" alt="" class="dropdown__image">
+                <input list="profiles" name="browser" class="navbar__inputDropdowns">
+                <datalist id="profiles">
+                    <option value="Your profile">
+                    <option value="Your repositories">
+                    <option value="Your codespaces">
+                    <option value="Your organization">
+                    <option value="New projects">
+                    <option value="Your stars">
+                    <option value="Your gists">
+                    <option value="Upgrade">
+                    <option value="Feature preview">
+                    <option value="Help">
+                    <option value="Settings">
+                    <option value="Signout">
+                </datalist>
+
+            </form>
+
+        </div>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/386040ba15.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
 </body>
+
 </html>
