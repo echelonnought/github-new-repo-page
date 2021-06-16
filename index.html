@@ -38,7 +38,7 @@
                 </datalist>
             </form>
             <form action="" method="get" class="navbar__forms">
-                <img src="/image/lawson.jpg" alt="" class="dropdown__image">
+                <img src="/image/lawson.jpg" alt="profileImage" class="dropdown__image">
                 <input list="profiles" name="browser" class="navbar__inputDropdowns">
                 <datalist id="profiles">
                     <option value="Your profile">
@@ -59,6 +59,32 @@
 
         </div>
     </nav>
+
+    <main>
+        <form action="" class="body__forms">
+            <h2>Create a new repository </h2>
+            <p>A repository contains all project files, including the revision history. Already have a project
+                elsewhere?</p>
+            <a href="#">Import a repository</a>
+            <hr>
+
+
+            <h4>Repository template</h4>
+            <p>Start your repository with a template repository's contents.</p>
+            <div>
+                <h4>No template</h4>
+                <input list="repo-template" type="text" class="body__inputDropdown">
+                <datalist id="repo-template">
+                    <option value="Your profile">
+                    <option value="Your repositories">
+                    <option value="Your codespaces">
+                    <option value="Your organization">
+                </datalist>
+            </div>
+            <hr>
+            <hr>
+        </form>
+    </main>
 
     <script src="https://kit.fontawesome.com/386040ba15.js" crossorigin="anonymous"></script>
     <script src="main.js"></script>
